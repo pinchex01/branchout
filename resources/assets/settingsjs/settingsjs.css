@@ -1,0 +1,20 @@
+table.settings tr:hover {
+    cursor: pointer;
+}
+table.settings tr:hover .edit-setting-icon {
+    visibility: visible;
+}
+
+table.settings td:first-child {
+    font-weight: bold;
+}
+.edit-setting-icon {
+    visibility: hidden;
+}
+.display {
+    display: block !important;
+}
+
+.edit-setting-label {
+    color: #90949c;
+}
